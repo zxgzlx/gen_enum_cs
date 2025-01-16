@@ -1,0 +1,16 @@
+
+using System;
+
+namespace {{ namespace }}
+{
+    [Serializable]
+    public partial class {{ classname }}
+    {
+        {%- for (typename, fieldname, comment) in tuples %}
+        /// <summary>
+        /// {{ comment }}
+        /// </summary>
+        public {{ typename }} {{ fieldname }};
+        {% endfor %}
+    }
+}

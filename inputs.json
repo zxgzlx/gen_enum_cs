@@ -1,0 +1,26 @@
+[
+    {
+        "headers": [
+            "##var",
+            "name",
+            "##describe"
+        ],
+        "work_sheet_name": "Test1",
+        "class_name": "Test1",
+        "in_path": "./inputtest1.xlsx",
+        "out_path": "../../Outputtest1.cs",
+        "namespace": "Deer.Scripts.Hotfix.HotfixBusiness.Constant"
+    },
+    {
+        "headers": [
+            "##var",
+            "type",
+            "remark"
+        ],
+        "work_sheet_name": "Test2",
+        "class_name": "Test2",
+        "in_path": "./inputtest2.xlsx",
+        "out_path": "../../Outputtest2.cs",
+        "namespace": "TestNamespace"
+    }
+]
